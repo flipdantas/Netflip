@@ -5,9 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflip</title>
-  <link rel="stylesheet" href="./style/main.css">
   <link rel="shortcut icon" href="./img/N.jpg"/>
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style/responsive.css">
+
+  <!-- owl css -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -27,16 +37,57 @@
         <h3 class="titulo">A FUGA DAS GALINHAS</h3>
         <p class="descricao">Após frustradas tentativas de escapar da granja dos Tweedy, as galinhas, lideradas por Ginger, mantêm poucas esperanças. Mas, quando o galo voador Rocky aparece no galinheiro, elas acreditam que ele poderá ensiná-las a voar, e assim, uma nova luz surge no fim do túnel.</p>
         <div class="botoes">
-          <button role="button" class="botao">
-            ASSISTIR AGORA
+          <button role="button" class="botao" onclick="location.href='https://www.youtube.com/watch?v=Vfirqr2Gt44&ab_channel=LC-TrailersdeCinema'">
+            <i class="fas fa-play"></i>
+            ASSISTA O TRAILER
           </button>
-          <button role="button" class="botao">
+          <button role="button" class="botao" onclick="location.href='https://www.themoviedb.org/movie/7443-chicken-run?language=pt-BR'">
+            <i class="fas fa-info-circle"></i>
             MAIS INFORMAÇÕES
           </button>
         </div>
       </div>      
     </div>
   </main>
-  
+
+  <div class="carrossel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-filme" src="img/mini1.jpg" alt="miniatura filme 1">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini2.jpg" alt="miniatura filme 2">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini3.jpg" alt="miniatura filme 3">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini4.jpg" alt="miniatura filme 4">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini5.jpg" alt="miniatura filme 5">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini6.jpg" alt="miniatura filme 6">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini7.jpg" alt="miniatura filme 7">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini8.jpg" alt="miniatura filme 8">
+      </div>
+      <div class="item">
+        <img class="box-filme" src="img/mini9.jpg" alt="miniatura filme 9">
+      </div>
+      <div class="item"></div>
+        <img class="box-filme" src="img/mini10.jpg" alt="miniatura filme 10">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/0061911b59.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
 </body>
 </html>
